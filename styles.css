@@ -1,0 +1,182 @@
+body {
+    background-color: #E1D7D4;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #E34E45;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: -10px;
+    margin-right: 60%;
+    color: #E34E45;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+h4 {
+    margin-top: 5%;
+    margin-right: 64%;
+    font-size: 18px;
+}
+
+p {
+    /* margin-bottom: -2px;
+    margin-top: 2px; */
+    /* margin-right: 10%; */
+    color:black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 8px;
+    width: 500px;
+    padding-left: 5px;
+    /* margin-right: 30px;
+    margin-bottom: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 10px; */
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 999999999;
+    background-color: #ADAAAA;
+    width: 200px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 80px;
+    /* align-items: center;
+    justify-content: center; */
+    /* padding-left: px; */
+  }
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.seats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 480px;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.3);
+
+    
+}
+
+.seat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 90px;
+    height: 90px;
+    color: #ADAAAA;
+    /* background-color: #EEE; */
+    border-radius: 50%;
+}
+
+form {
+    background-color: white;
+   width: 600px;
+   height: 450px;
+   border-radius: 2%;
+   box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.3);
+   text-align: center;
+   display: none;
+   position: absolute;
+}
+
+input {
+    display: block;
+    width: 500px;
+    border: none;
+    border-bottom: 2px solid #EEE;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#Name {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+#number {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+#Num_people {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+input::placeholder {
+    color: #CCC;
+    font-weight: bold;
+}
+
+.save{
+    width: 80%;
+    height: 30px;
+    color: white;
+    background-color: #008000;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.3);
+}
+
+
+/* .popup {
+    text-align: center;
+    display: none;
+    position: absolute;
+
+}
+.popup.visible {
+        display: block;
+} */
+
+
+.xbutton {
+    border: none;
+    margin-left: 90%;
+    padding-top: 30px;
+    color: #EEE;
+}
+
+.available {
+    background-color:#EEE;
+}
+
+.reserved {
+    background-color: #ADAAAA;
+    color: #CCC;
+}
+
+
+.hover {
+    background-color: #CCC;
+}
+
+
+
